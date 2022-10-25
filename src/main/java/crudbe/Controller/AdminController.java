@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import java.util.List;
 
 @RestController
+@RequestMapping
 public class AdminController {
 
     @Autowired
